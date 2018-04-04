@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hoja de Vida</title>
+</head>
+<body class="container BodyContainer">
+
+    <!-- Header -->
+    <header>
+        <img src="../img/logo.svg" height="200" width="250" alt="Logo" title="Logo" id="Logo">
+        
+        <h1>Hoja de Vida</h1>
+
+        <h2>Jose Manuel Badilla Porras</h2>
+        <h3>4/7/90 - San Jose, Costa Rica</h3>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="educacion.html">Educación</a>
+                </li>
+                <li>
+                    <a href="experiencia.html">Experiencia</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- ./ Header -->
+
+    <!-- Section Cuerpo de la pagina -->
+    <section>
+        <h2>Educación</h2>
+        
+        <table border="2px">
+            <thead>
+                <th>Año</th>
+                <th>Institución</th>
+                <th>Lugar</th>
+                <th>¿Culminó?</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>N\A</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>N\A</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Agregar Estudios</h3>
+        <form autocomplete="off">
+
+            <label for="Anno">Año</label>
+            <select name="Anno" id="Anno">
+                <option value="2012">2016</option>
+                <option value="2013">2016</option>
+                <option value="2014">2016</option>
+                <option value="2015">2016</option>
+                <option value="2016">2016</option>
+                <option value="2017">2016</option>
+                <option value="2018">2016</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="Institucion">Institución</label>
+            <input type="text" name="Institucion" required>
+
+            <br>
+            <br>
+
+            <label for="Lugar">Lugar</label>
+            <textarea name="Lugar" id="Lugar" cols="20" rows="5"></textarea>
+
+            <br>
+            <br>
+            
+            <label>¿Culminó?</label>
+            <label for="CulminoSi">Si</label>
+            <input type="radio" name="CulminoSi" id="CulminoSi">
+
+            <label for="CulminoNo">No</label>
+            <input type="radio" name="CulminoNo" id="CulminoNo">
+
+            <br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <!-- ./ Section Cuerpo de la pagina -->
+
+    <hr>
+    
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li>Correo: jbadilla@hotmail.com</li>
+            <li>Celular: +(506) 8706 3990</li>
+            <li>Dirección: San Jose, Costa Rica</li>
+        </ul>
+    </footer>
+    <!-- ./ Footer -->
+</body>
+</html>
